@@ -1,5 +1,3 @@
-package smartlibrarysystem;
-
 public class Book extends Resource {
     private static final long serialVersionUID = 1L;
     private int pages;
