@@ -5,15 +5,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.Serializable;    // convert obj into byte stream
 import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
+import java.time.temporal.ChronoUnit;    // timing
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// Library Core Class
 public class Library implements Serializable {
     private static final long serialVersionUID = 1L;
    
