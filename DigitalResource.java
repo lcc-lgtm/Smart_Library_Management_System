@@ -1,4 +1,4 @@
-public class DigitalResource extends Resource {
+public class DigitalResource extends Resource { 
     private static final long serialVersionUID = 1L;
     private String fileFormat;
     private double fileSize;
